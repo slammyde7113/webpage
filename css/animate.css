@@ -174,10 +174,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
-.shake {
+/*.shake {
   -webkit-animation-name: shake;
   animation-name: shake;
-}
+}*/
 
 @-webkit-keyframes swing {
   20% {
