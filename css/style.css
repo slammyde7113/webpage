@@ -632,6 +632,10 @@ Parallax
     color: #999;
 }
 
+.col-md-12 {
+  float:left;
+}
+
 .page-scroll .btn-circle i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
