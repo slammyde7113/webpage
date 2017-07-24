@@ -257,6 +257,14 @@ hr {
 --- General sections
 ============================ */
 
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-desc {
+    background: rgba(0, 0, 0, 0.5)
+}
+
 img {
     display: flex;
   justify-content: center;
@@ -275,13 +283,6 @@ img {
   align-items: center;
 }
 
-/*
-#myCarousel {
-    align-content: center;
-    width:750px;
-  height:750px;
-}
-*/
 
 .home-section {
     padding-top: 110px;
