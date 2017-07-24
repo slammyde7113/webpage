@@ -257,6 +257,32 @@ hr {
 --- General sections
 ============================ */
 
+img {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-container {
+     display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+#myCarousel {
+    align-content: center;
+    width:750px;
+  height:750px;
+}
+*/
+
 .home-section {
     padding-top: 110px;
     padding-bottom: 110px;
@@ -591,6 +617,20 @@ Parallax
     transition: all .3s ease-in-out;
 }
 
+.btn-circle-black {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 40px;
+    color: #000;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
 
 .btn-circle {
     width: 70px;
